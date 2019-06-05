@@ -145,10 +145,6 @@ body {
   justify-content: space-around;
 }
 /* Variables...................*/
-h2 {
-  font-size: 25px;
-  margin-bottom: 4%;
-}
 /* Nesting .......................*/
 body {
   width: 1000px;
@@ -193,6 +189,10 @@ body section div {
   width: 400px;
   margin-top: 3%;
   padding: 10px;
+}
+body section h2 {
+  font-size: 25px;
+  margin-bottom: 4%;
 }
 body section .skills ul li {
   list-style-type: square;
