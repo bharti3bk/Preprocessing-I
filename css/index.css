@@ -154,11 +154,15 @@ a {
   color: black;
   text-decoration: none;
 }
+h1 {
+  font-size: 30px;
+  margin-top: 2%;
+}
+p {
+  line-height: 20px;
+}
 .logo {
   margin-top: 5%;
-}
-main {
-  border: 3px dotted black;
 }
 button {
   margin-bottom: 6%;
@@ -195,6 +199,10 @@ footer p {
   text-align: center;
   margin-top: 8%;
 }
+ul li {
+  list-style-type: square;
+}
+/* Mixins ..................*/
 .maindiv {
   margin-left: 6%;
 }
@@ -208,4 +216,12 @@ footer p {
 .sec {
   display: flex;
   justify-content: space-around;
+}
+/* Variables...................*/
+h2 {
+  font-size: 25px;
+  margin-bottom: 4%;
+}
+main {
+  border: 3px dotted black;
 }
