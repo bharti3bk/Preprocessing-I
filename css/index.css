@@ -204,6 +204,10 @@ body section .skills ul li {
 body footer {
   margin-left: 6%;
 }
+body footer h2 {
+  font-size: 25px;
+  margin-bottom: 4%;
+}
 body footer p {
   text-align: center;
   margin-top: 8%;
